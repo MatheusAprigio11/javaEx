@@ -24,7 +24,11 @@ public class trains {
             System.out.println("Input the speed of the train A>> ");
             spdA = sc.nextInt();
             try{
-                if spdA 
+                if ( > ) {
+                    continue;
+                }
+            }catch (InputMismatchException e) {
+                System.out.println("...");
             }
 
             System.out.println("Now input the first position in KM of the train B>> ");
