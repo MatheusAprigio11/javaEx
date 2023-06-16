@@ -37,7 +37,7 @@ public class Main {
             int resp = sc.nextInt();
             if (resp == 1) {
                 for (int numeros : primos) {
-                    System.out.println(numeros);
+                    System.out.println(numeros); //
                 }
             } else {
                 for (int numeros : naoPrimos) {
